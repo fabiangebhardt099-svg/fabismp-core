@@ -1,0 +1,40 @@
+scoreboard-title: "<gradient:#ff9a3c:#ffd23c><bold>FabiSMP</bold></gradient>"
+start-money: 0
+max-homes: 3
+tpa-timeout: 60
+rtp:
+  world: world
+  min: 500
+  max: 5000
+  cooldown: 30
+# Preise pro Item (Material-Name). Nicht gelistete Items sind nicht verkaufbar.
+sell-prices:
+  COBBLESTONE: 0.5
+  STONE: 1
+  COAL: 8
+  IRON_INGOT: 25
+  GOLD_INGOT: 40
+  COPPER_INGOT: 10
+  DIAMOND: 250
+  EMERALD: 120
+  NETHERITE_INGOT: 5000
+  WHEAT: 3
+  CARROT: 3
+  POTATO: 3
+  SUGAR_CANE: 4
+  PUMPKIN: 5
+  MELON_SLICE: 2
+  BONE: 4
+  GUNPOWDER: 15
+  ENDER_PEARL: 60
+  BLAZE_ROD: 50
+combat:
+  enabled: true
+  duration: 20          # Sekunden
+  kill-on-logout: true  # Spieler stirbt (Items droppen), wenn er im Kampf den Server verlaesst
+  blocked-commands:
+    - tpa
+    - tpaccept
+    - home
+    - rtp
+    - sethome

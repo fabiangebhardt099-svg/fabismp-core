@@ -1,0 +1,48 @@
+name: FabiSMP-Core
+main: de.fabismp.core.FabiCore
+version: 1.0.0
+api-version: '26.2'
+description: DonutSMP-style core (economy, sell, rtp, tpa, homes, sidebar)
+commands:
+  bal:
+    description: Kontostand anzeigen
+    aliases: [balance, money]
+  pay:
+    description: Geld senden
+    usage: /pay <spieler> <betrag>
+  baltop:
+    description: Reichste Spieler
+  sell:
+    description: Items verkaufen
+    usage: /sell [hand|all]
+  worth:
+    description: Wert des Items in der Hand
+  shards:
+    description: Shards anzeigen
+  eco:
+    description: Economy verwalten
+    usage: /eco <money|shards> <give|take|set> <spieler> <betrag>
+    permission: fabismp.admin
+  rtp:
+    description: Zufaellig teleportieren
+  tpa:
+    description: Teleport-Anfrage senden
+  tpaccept:
+    description: Anfrage annehmen
+  tpdeny:
+    description: Anfrage ablehnen
+  home:
+    description: Zum Home teleportieren
+  sethome:
+    description: Home setzen
+  delhome:
+    description: Home loeschen
+  homes:
+    description: Homes auflisten
+  stats:
+    description: Statistiken anzeigen
+permissions:
+  fabismp.admin:
+    default: op
+  fabismp.homes.bypass:
+    default: op
